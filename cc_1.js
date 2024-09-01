@@ -9,3 +9,13 @@ console.log(employeeID, typeof(employeeID));
 console.log(isActive, typeof(isActive));
 
 
+//Task 2 Compound Data Types
+
+let products = ["Rings", "Watches", "Clips"]
+const productDetails= {
+    name: products,
+    price: 450,
+    inStock: "Yes",
+}
+
+console.log(products, productDetails);
