@@ -38,3 +38,22 @@ console.log(accountBalance);
 
 accountBalance %= 3;
 console.log(accountBalance);
+
+//Task 4 Comparison Operators
+
+let employeeScore1 = 10;
+let employeeScore2 = 6;
+
+console.log(employeeScore1 > employeeScore2);
+
+console.log(employeeScore1 < employeeScore2);
+
+console.log(employeeScore1 >= employeeScore2);
+
+console.log(employeeScore1 <= employeeScore2);
+
+console.log(employeeScore1 === employeeScore2);
+
+console.log(employeeScore1 !== employeeScore2);
+   
+
