@@ -45,6 +45,8 @@ console.log("Remainder:",accountBalance);
 let employeeScore1 = 100;
 let employeeScore2 = 92;
 
+// The scores of two employees are compared and the result of the comparison is logged to the console
+
 employeeScore1 > employeeScore2;
 console.log("The comparison is:", employeeScore1 > employeeScore2);
  
@@ -63,3 +65,27 @@ console.log("The comparison is:", employeeScore1 === employeeScore2);
 employeeScore1 !== employeeScore2;
 console.log("The comparison is:", employeeScore1 !== employeeScore2);
 
+// Task 5 Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = true;
+ 
+// An if statement is used to evaluate the the access permissions using logical operators and based on the evaluation a statement is logged to the console
+
+if (hasKeyCard && hasPermission) {
+    console.log("Access Granted");
+} else {
+    console.log ("Access Denied");
+}
+
+if (hasKeyCard || hasPermission) {
+    console.log("Access Granted");
+} else {
+    console.log("Access Denied");
+}
+
+if (!hasKeyCard && hasPermission) {
+    console.log("Access Granted");
+} else {
+    console.log ("Access Denied");
+}
