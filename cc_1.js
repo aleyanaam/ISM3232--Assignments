@@ -25,35 +25,24 @@ console.log(products, productDetails);
 let accountBalance = 2500;
 
 accountBalance += 2000;
-console.log(accountBalance);
+console.log("Current Account Balance:",accountBalance);
 
 accountBalance -= 100;
-console.log(accountBalance);
+console.log("Current Account Balance:",accountBalance);
 
 accountBalance *= 100;
-console.log(accountBalance);
+console.log("Current Account Balance:",accountBalance);
 
 accountBalance /= 10;
-console.log(accountBalance);
+console.log("Current Account Balance:",accountBalance);
 
 accountBalance %= 3;
-console.log(accountBalance);
+console.log("Remainder:",accountBalance);
 
-//Task 4 Comparison Operators
 
-let employeeScore1 = 10;
-let employeeScore2 = 6;
-
-console.log(employeeScore1 > employeeScore2);
-
-console.log(employeeScore1 < employeeScore2);
-
-console.log(employeeScore1 >= employeeScore2);
-
-console.log(employeeScore1 <= employeeScore2);
-
-console.log(employeeScore1 === employeeScore2);
-
-console.log(employeeScore1 !== employeeScore2);
    
+
+
+
+
 
